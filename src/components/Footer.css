@@ -1,0 +1,11 @@
+.footer {
+    background-color: blue;
+    padding: 20px 0; /* Increase the top and bottom padding to increase thickness */
+    text-align: center;
+  }
+  
+  .copyright {
+    color: white;
+    font-size: 14px;
+  }
+  

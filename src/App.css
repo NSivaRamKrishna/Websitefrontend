@@ -1,0 +1,124 @@
+/* Existing styles in App.css */
+
+.App {
+  text-align: center;
+}
+
+/* Add new styles for menu bar */
+.App {
+  display: flex;
+}
+
+
+/* Rest of the existing styles */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the top */
+}
+
+.department-info {
+  margin-top: 20px; /* Add margin top to create space between slideshow and department info */
+  text-align: left; /* Align department info content to the left */
+}
+
+.slideshow-container {
+  position: relative;
+  text-align: center;
+}
+.slide-options-container {
+  position: absolute;
+  bottom: 10px; /* Adjust vertical position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide-option {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+}
+
+.slide-option:hover {
+  color: blue; /* Change color on hover as needed */
+}
+
+.slide-option.active {
+  background-color: blue; /* Change active color as needed */
+  color: white;
+}
+
+
+
+
+/* Add new styles for footer */
+/* Existing styles */
+
+/* Add new styles for footer */
+.footer {
+  background-color: blue; /* Background color for the footer */
+  color: white; /* Text color in white */
+  padding: 25px 20px; /* Padding for the footer content */
+  text-align: center; /* Center align the text */
+}
+
+.footer p {
+  margin: 0; /* Remove margin around the text */
+}
+
+.main-content {
+  display: grid;
+  grid-template-rows: auto auto 1fr; /* Two rows for slideshow and department info, 1fr for other components */
+  gap: 20px; /* Adjust the gap between rows as needed */
+}
+
+.slideshow-row {
+  grid-row: 1;
+}
+
+.departmentinfo-row {
+  grid-row: 2;
+}
+
+

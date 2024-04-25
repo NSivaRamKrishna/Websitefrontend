@@ -1,0 +1,25 @@
+/* UpcomingEvents.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .event-item {
+    margin-bottom: 20px;
+  }
+  
+  .event-title {
+    font-weight: bold;
+  }
+  
+  .event-date {
+    color: #666;
+  }
+  

@@ -1,0 +1,70 @@
+/* AboutPage.css */
+
+.about-container {
+  position: relative;
+  max-width: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.about-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('sportsbg3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: blur(7px);
+  z-index: -1;
+}
+
+/* Additional styles for text and other content */
+.about-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content-text {
+  font-size: 16px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.facilities-table {
+  width: 40%; /* Reduced width to 80% */
+  border-collapse: collapse;
+  background-color: #ffffcc; /* Light yellow background color */
+}
+
+.facilities-table th,
+.facilities-table td {
+  padding: 5px; /* Reduced padding */
+  border: 1px solid black; /* Table borders in black */
+  color: black; /* Table content color in black */
+  font-size: 14px; /* Reduced font size */
+}
+
+.facilities-table th {
+  background-color: #ffffcc; /* Light yellow background color for headers */
+  font-weight: bold;
+  text-align: left;
+}
+
+.facilities-table tbody tr:nth-child(even) {
+  background-color: #ffffe6; /* Lighter shade of yellow for even rows */
+}
